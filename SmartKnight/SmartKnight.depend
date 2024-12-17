@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1734460016 source:c:\users\aivar\documents\programavimopagrindai\smartknight\smartknight\main.c
+	<stdio.h>
+	"help.h"
+	<time.h>
+
+1734459932 c:\users\aivar\documents\programavimopagrindai\smartknight\smartknight\help.h
+
+1734459097 source:c:\users\aivar\documents\programavimopagrindai\smartknight\smartknight\lentosgeneravimas.c
+	<stdio.h>
+
+1734459970 source:c:\users\aivar\documents\programavimopagrindai\smartknight\smartknight\pradinistaskas.c
+	<time.h>
+
