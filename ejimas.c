@@ -1,4 +1,4 @@
-void make_move(int N, int board[N][N], int visited[N][N], int *x, int *y, int *points) {
+void ejimas(int N, int board[N][N], int visited[N][N], int *x, int *y, int *taskai) {
     int cord_x, cord_y;
     printf("ejimas (x y): ");
     scanf("%d %d", &cord_x, &cord_y);
