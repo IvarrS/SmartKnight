@@ -31,12 +31,26 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="AtspausdintiLenta.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="GalimiZingsniai.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Judejimas.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+		</Unit>
 		<Unit filename="LentosGeneravimas.c">
 			<Option compilerVar="CC" />
 			<Option target="Debug" />
 		</Unit>
 		<Unit filename="Main.c">
 			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Pabaiga.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
 		</Unit>
 		<Unit filename="PradinisTaskas.c">
 			<Option compilerVar="CC" />

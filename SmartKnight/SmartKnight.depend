@@ -1,14 +1,30 @@
 # depslib dependency file v1.0
-1734460016 source:c:\users\aivar\documents\programavimopagrindai\smartknight\smartknight\main.c
+1736274117 source:c:\users\aivar\documents\programavimopagrindai\smartknight\smartknight\main.c
 	<stdio.h>
 	"help.h"
 	<time.h>
 
-1734459932 c:\users\aivar\documents\programavimopagrindai\smartknight\smartknight\help.h
+1736274104 c:\users\aivar\documents\programavimopagrindai\smartknight\smartknight\help.h
 
-1734459097 source:c:\users\aivar\documents\programavimopagrindai\smartknight\smartknight\lentosgeneravimas.c
+1734615263 source:c:\users\aivar\documents\programavimopagrindai\smartknight\smartknight\lentosgeneravimas.c
 	<stdio.h>
 
-1734459970 source:c:\users\aivar\documents\programavimopagrindai\smartknight\smartknight\pradinistaskas.c
+1736272533 source:c:\users\aivar\documents\programavimopagrindai\smartknight\smartknight\pradinistaskas.c
 	<time.h>
+
+1734613867 source:c:\users\aivar\documents\programavimopagrindai\smartknight\smartknight\galimasejimas.c
+
+1734614399 source:c:\users\aivar\documents\programavimopagrindai\smartknight\smartknight\ejimas.c
+
+1736274308 source:c:\users\aivar\documents\programavimopagrindai\smartknight\smartknight\pabaiga.c
+	<stdio.h>
+
+1736271714 source:c:\users\aivar\documents\programavimopagrindai\smartknight\smartknight\judejimas.c
+	<stdio.h>
+
+1736273714 source:c:\users\aivar\documents\programavimopagrindai\smartknight\smartknight\galimizingsniai.c
+	<stdio.h>
+
+1736272356 source:c:\users\aivar\documents\programavimopagrindai\smartknight\smartknight\atspausdintilenta.c
+	<stdio.h>
 
