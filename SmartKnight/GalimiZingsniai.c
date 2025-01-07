@@ -1,10 +1,9 @@
 #include <stdio.h>
 
-int GalimiZingsniai(int randomX, int randomY, int N, int lenta[N][N]){
+int GalimiZingsniai(int randomX, int randomY, int N, int lenta[N][N], int galimiJudejimai[][2]){
   int x, y;
   int sk = 0;
   int i = 0;
-  int galimiJudejimai[8][2];
   int Judejimai[8][2] = {
       {-2, 1},
       {-1, 2},
