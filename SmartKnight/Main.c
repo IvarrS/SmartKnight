@@ -6,8 +6,16 @@ int main(){
   int N;
   int rezultatas = 0;
 
-  printf("Iveskite norimos sachmatu lentos dydi \n");
-  scanf("%d", &N);
+  do{
+    printf("Iveskite norimos sachmatu lentos dydi \n");
+    scanf("%d", &N);
+
+    if(N<3){
+      printf("\nLentos dydis turi buti didesnis nei 2 \n");
+    }
+
+  }while(N<3);
+
 
   int lenta[N][N];
   int JudejimoX, JudejimoY;
