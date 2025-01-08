@@ -40,7 +40,12 @@ int main(){
     Judejimas(N, lenta, &JudejimoX, &JudejimoY, galimiJudesiai);
     AtspausdintiLenta(N, lenta);
 
-    system("cls");
+    #ifdef _WIN32
+      system("cls");
+    #else
+      system("clear");
+    #endif
+
 
     printf("Dabartine Lenta: \n");
     AtspausdintiLenta(N, lenta);
@@ -50,7 +55,9 @@ int main(){
   }
 
   Pabaiga(rezultatas);
-  system("pause");
+  printf("\nPaspauskite Enter, kad iseiti is programos");
+  getchar();
+  getchar();
   return 0;
 }
 
