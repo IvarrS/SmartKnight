@@ -30,7 +30,7 @@ int GalimiZingsniai(int randomX, int randomY, int N, int lenta[N][N], int galimi
   if(sk > 0 ){
     printf("\nGalimi judejimai: \n");
     for (int i = 0; i < sk; i++){
-      printf("(%d, %d)\n", galimiJudejimai[i][0], galimiJudejimai[i][1]);
+      printf("(%d, %d)\n", galimiJudejimai[i][1] + 1 , galimiJudejimai[i][0] + 1);
     }
   }
 

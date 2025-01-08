@@ -6,10 +6,13 @@ void Judejimas(int N, int lenta[N][N], int *dabartinisX, int *dabartinisY, int g
   do{
     printf("\nIveskite norimas galimo judejimo koordinates \n");
     printf("X:");
-    scanf("%d", &naujasX);
-    printf("Y:");
     scanf("%d", &naujasY);
+    printf("Y:");
+    scanf("%d", &naujasX);
     printf("\n");
+
+    naujasY -= 1;
+    naujasX -= 1;
 
     for(int i = 0; i < 8; i++) {
       if(galimiJudejimai[i][0] == naujasX && galimiJudejimai[i][1] == naujasY){
