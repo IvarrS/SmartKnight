@@ -50,6 +50,7 @@ int main(){
   }
 
   Pabaiga(rezultatas);
+  system("pause");
   return 0;
 }
 
